@@ -33,6 +33,7 @@ Birthdays, Weddings and any other celebrating events.
 
 ## Changelog
 - 2026-04-21 - First commit, added all HTML files
+- 2026-05-29 - Part 2 - added css styling 
 
 ## Timeline
 <img width="1053" height="726" alt="Sitemap PoE" src="https://github.com/user-attachments/assets/4c5e3b0b-5d09-4b0c-8e91-9ba86540a530" />
