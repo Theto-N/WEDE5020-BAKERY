@@ -30,8 +30,8 @@ button {
 
 }
 
-@media screen {
-    max-width: .container {
+@media screen and (max-width: 1200px) {
+    .container {
         max-width: 100%;
         padding: 10px;
     }
@@ -49,4 +49,3 @@ button {
     
 }
 
-<img src="small. jpg" alt="Small Image">
