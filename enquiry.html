@@ -22,7 +22,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a> </li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li> 
             <li><a href="enquiry.html">Enquiry</a></li>
         </ul>
     </nav>
@@ -47,12 +47,27 @@
 
         <tr>
         <!--Submit Button-->
-        <td><button type="submit">Send Enquiry:</button></td>
+        <td><button type="submit">Send Enquiry</button></td>
         </tr>
 
-
+        <tr>
+        <!--Reset Button-->
+        <td><button type="reset">Reset</button></td>
+        </tr>
     </table>
+
+    <select name="enquiry_type" id="enquiry_type">
+        <option value="">Select Enquiry Type</option>
+        <option value="product">Product Inquiry</option>
+        <option value="order">Order Status</option>
+        <option value="feedback">Feedback</option>
+        <option value="other">Other</option>
+
+    </select>
+
 </form>
+
+<script src="script.js"></script>
     
 </body>
 </html>
