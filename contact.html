@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    
 </head>
 
 
@@ -14,6 +14,7 @@
 <body>
     <header><nav>
         <div>
+            <img src="img/119205489_3231599653594253_1549889114829199292_n.jpg" width="300" atl="Botheo's Bakery & Sweets">
             <p>BOTHEO'S BAKERY & SWEETS (BBS)</p>
         </div>
          <ul>
@@ -28,35 +29,39 @@
 <div class="Contact">
     <h2>ContactUs</h2>
     <form action="submit_form.php" method="POST">
-        <nav></nav>
+        <table>
+        <tr>
         <!--Name Field-->
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required placeholder="Your Name">
-        </nav>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" id="name" name="name" required placeholder="Your Name"></td>
+        </tr>
 
-        <nav>
+        <tr>
         <!--Email Field-->
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required placeholder="Your Email">
-        </nav>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email" required placeholder="Your Email"></td>
+        </tr>
 
 
-        <nav>
+        <tr>
         <!--message Area-->
-        <label for="--message">Message:</label>
-        <textarea id="message" name="message" required placeholder="Write your message  here..."></textarea>
-        </nav>
+        <td><label for="--message">Message:</label></td>
+        <td><textarea id="message" name="message" required placeholder="Write your message  here..."></textarea></td>
+        </tr>
 
 
-        <nav>
+        <tr>
         <!--Submit Button-->
-        <button type="submit">Send Message</button>
-        </nav>
+        <td><button type="submit">Send Message</button></td>
+        </tr>
 
+
+        </table>
 
 
     </form>
     </div>
     
 </body>
+<link rel="stylesheet" href="css/style.css">
 </html>
